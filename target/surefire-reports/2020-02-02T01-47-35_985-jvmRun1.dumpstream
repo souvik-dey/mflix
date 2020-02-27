@@ -1,0 +1,153 @@
+# Created at 2020-02-02T01:51:44.754
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:391)
+	at java.lang.Thread.run(Thread.java:813)
+
+
+# Created at 2020-02-02T01:51:45.289
+Unexpected IOException with stream: 2020-02-02 01:51:45.282  INFO 76492 --- [ngodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=mflix-shard-00-00-fl3im.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 3]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=48501582, setName='mflix-shard-0', canonicalAddress=mflix-shard-00-00-fl3im.mongodb.net:27017, hosts=[mflix-shard-00-00-fl3im.mongodb.net:27017, mflix-shard-00-01-fl3im.mongodb.net:27017, mflix-shard-00-02-fl3im.mongodb.net:27017], passives=[], arbiters=[], primary='mflix-shard-00-02-fl3im.mongodb.net:27017', tagSet=TagSet{[Tag{name='provider', value='AWS'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='region', value='AP_SOUTH_1'}]}, electionId=null, setVersion=1, lastWriteDate=Sun Feb 02 01:51:35 IST 2020, lastUpdateTimeNanos=31976195078124}
+
+
+# Created at 2020-02-02T01:51:47.219
+Unexpected IOException with stream: 2020-02-02 01:51:47.216  INFO 76492 --- [ngodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=mflix-shard-00-00-fl3im.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 3]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=45268365, setName='mflix-shard-0', canonicalAddress=mflix-shard-00-00-fl3im.mongodb.net:27017, hosts=[mflix-shard-00-00-fl3im.mongodb.net:27017, mflix-shard-00-01-fl3im.mongodb.net:27017, mflix-shard-00-02-fl3im.mongodb.net:27017], passives=[], arbiters=[], primary='mflix-shard-00-02-fl3im.mongodb.net:27017', tagSet=TagSet{[Tag{name='provider', value='AWS'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='region', value='AP_SOUTH_1'}]}, electionId=null, setVersion=1, lastWriteDate=Sun Feb 02 01:51:45 IST 2020, lastUpdateTimeNanos=31978128487888}
+
+
+# Created at 2020-02-02T01:51:47.389
+Unexpected IOException with stream: 2020-02-02 01:51:47.387  INFO 76492 --- [ngodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=mflix-shard-00-00-fl3im.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 3]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=45819140, setName='mflix-shard-0', canonicalAddress=mflix-shard-00-00-fl3im.mongodb.net:27017, hosts=[mflix-shard-00-00-fl3im.mongodb.net:27017, mflix-shard-00-01-fl3im.mongodb.net:27017, mflix-shard-00-02-fl3im.mongodb.net:27017], passives=[], arbiters=[], primary='mflix-shard-00-02-fl3im.mongodb.net:27017', tagSet=TagSet{[Tag{name='provider', value='AWS'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='region', value='AP_SOUTH_1'}]}, electionId=null, setVersion=1, lastWriteDate=Sun Feb 02 01:51:45 IST 2020, lastUpdateTimeNanos=31978298451366}
+
+
+# Created at 2020-02-02T01:51:47.914
+Unexpected IOException with stream: 2020-02-02 01:51:47.912  INFO 76492 --- [           main] org.mongodb.driver.cluster               : Cluster created with settings {hosts=[mflix-shard-00-01-fl3im.mongodb.net:27017, mflix-shard-00-00-fl3im.mongodb.net:27017, mflix-shard-00-02-fl3im.mongodb.net:27017], mode=MULTIPLE, requiredClusterType=REPLICA_SET, serverSelectionTimeout='30000 ms', maxWaitQueueSize=500, requiredReplicaSetName='mflix-shard-0'}
+
+
+# Created at 2020-02-02T01:51:47.917
+Unexpected IOException with stream: 2020-02-02 01:51:47.915  INFO 76492 --- [           main] org.mongodb.driver.cluster               : Adding discovered server mflix-shard-00-01-fl3im.mongodb.net:27017 to client view of cluster
+
+
+# Created at 2020-02-02T01:51:47.922
+Unexpected IOException with stream: 2020-02-02 01:51:47.921  INFO 76492 --- [           main] org.mongodb.driver.cluster               : Adding discovered server mflix-shard-00-00-fl3im.mongodb.net:27017 to client view of cluster
+
+
+# Created at 2020-02-02T01:51:47.929
+Unexpected IOException with stream: 2020-02-02 01:51:47.927  INFO 76492 --- [           main] org.mongodb.driver.cluster               : Adding discovered server mflix-shard-00-02-fl3im.mongodb.net:27017 to client view of cluster
+
+
+# Created at 2020-02-02T01:51:47.938
+Unexpected IOException: 7,1,mflix.api.daos.TimeoutsTest,testConfiguredWtimeout(mflix.api.daos.TimeoutsTest),null,null,null,null,TimeoutsTest.testConfiguredWtimeout:49 NullPointer,java.lang.NullPointerException\000A\0009at mflix.api.daos.TimeoutsTest.testConfiguredWtimeout(TimeoutsTest.java:49)\000A
+
+
+# Created at 2020-02-02T01:51:47.940
+Unexpected IOException: 2,1,org.apache.maven.surefire.junit4.JUnit4Provider,mflix.api.daos.TimeoutsTest,null,null,null
+
+
+# Created at 2020-02-02T01:51:48.237
+Unexpected IOException with stream: 2020-02-02 01:51:48.235  INFO 76492 --- [ngodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:29, serverValue:66690}] to mflix-shard-00-02-fl3im.mongodb.net:27017
+
+
+# Created at 2020-02-02T01:51:48.294
+Unexpected IOException with stream: 2020-02-02 01:51:48.292  INFO 76492 --- [ngodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=mflix-shard-00-02-fl3im.mongodb.net:27017, type=REPLICA_SET_PRIMARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 3]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=52979800, setName='mflix-shard-0', canonicalAddress=mflix-shard-00-02-fl3im.mongodb.net:27017, hosts=[mflix-shard-00-00-fl3im.mongodb.net:27017, mflix-shard-00-01-fl3im.mongodb.net:27017, mflix-shard-00-02-fl3im.mongodb.net:27017], passives=[], arbiters=[], primary='mflix-shard-00-02-fl3im.mongodb.net:27017', tagSet=TagSet{[Tag{name='nodeType', value='ELECTABLE'}, Tag{name='region', value='AP_SOUTH_1'}, Tag{name='provider', value='AWS'}]}, electionId=7fffffff0000000000000005, setVersion=1, lastWriteDate=Sun Feb 02 01:51:45 IST 2020, lastUpdateTimeNanos=31979204905973}
+
+
+# Created at 2020-02-02T01:51:48.297
+Unexpected IOException with stream: 2020-02-02 01:51:48.296  INFO 76492 --- [ngodb.net:27017] org.mongodb.driver.cluster               : Setting max election id to 7fffffff0000000000000005 from replica set primary mflix-shard-00-02-fl3im.mongodb.net:27017
+
+
+# Created at 2020-02-02T01:51:48.299
+Unexpected IOException with stream: 2020-02-02 01:51:48.298  INFO 76492 --- [ngodb.net:27017] org.mongodb.driver.cluster               : Setting max set version to 1 from replica set primary mflix-shard-00-02-fl3im.mongodb.net:27017
+
+
+# Created at 2020-02-02T01:51:48.301
+Unexpected IOException with stream: 2020-02-02 01:51:48.300  INFO 76492 --- [ngodb.net:27017] org.mongodb.driver.cluster               : Discovered replica set primary mflix-shard-00-02-fl3im.mongodb.net:27017
+
+
+# Created at 2020-02-02T01:51:48.308
+Unexpected IOException with stream: 2020-02-02 01:51:48.306  INFO 76492 --- [ngodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:28, serverValue:45705}] to mflix-shard-00-00-fl3im.mongodb.net:27017
+
+
+# Created at 2020-02-02T01:51:48.319
+Unexpected IOException with stream: 2020-02-02 01:51:48.306  INFO 76492 --- [ngodb.net:27017] org.mongodb.driver.connection            : Opened connection [connectionId{localValue:27, serverValue:52931}] to mflix-shard-00-01-fl3im.mongodb.net:27017
+
+
+# Created at 2020-02-02T01:51:48.369
+Unexpected IOException with stream: 2020-02-02 01:51:48.367  INFO 76492 --- [ngodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=mflix-shard-00-00-fl3im.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 3]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=48806336, setName='mflix-shard-0', canonicalAddress=mflix-shard-00-00-fl3im.mongodb.net:27017, hosts=[mflix-shard-00-00-fl3im.mongodb.net:27017, mflix-shard-00-01-fl3im.mongodb.net:27017, mflix-shard-00-02-fl3im.mongodb.net:27017], passives=[], arbiters=[], primary='mflix-shard-00-02-fl3im.mongodb.net:27017', tagSet=TagSet{[Tag{name='provider', value='AWS'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='region', value='AP_SOUTH_1'}]}, electionId=null, setVersion=1, lastWriteDate=Sun Feb 02 01:51:45 IST 2020, lastUpdateTimeNanos=31979280195541}
+
+
+# Created at 2020-02-02T01:51:48.373
+Unexpected IOException with stream: 2020-02-02 01:51:48.370  INFO 76492 --- [ngodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=mflix-shard-00-01-fl3im.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 3]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=48895591, setName='mflix-shard-0', canonicalAddress=mflix-shard-00-01-fl3im.mongodb.net:27017, hosts=[mflix-shard-00-00-fl3im.mongodb.net:27017, mflix-shard-00-01-fl3im.mongodb.net:27017, mflix-shard-00-02-fl3im.mongodb.net:27017], passives=[], arbiters=[], primary='mflix-shard-00-02-fl3im.mongodb.net:27017', tagSet=TagSet{[Tag{name='region', value='AP_SOUTH_1'}, Tag{name='provider', value='AWS'}, Tag{name='nodeType', value='ELECTABLE'}]}, electionId=null, setVersion=1, lastWriteDate=Sun Feb 02 01:51:45 IST 2020, lastUpdateTimeNanos=31979283229201}
+
+
+# Created at 2020-02-02T01:51:49.653
+Unexpected IOException with stream: 2020-02-02 01:51:49.651  INFO 76492 --- [ngodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=mflix-shard-00-00-fl3im.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 3]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=46009333, setName='mflix-shard-0', canonicalAddress=mflix-shard-00-00-fl3im.mongodb.net:27017, hosts=[mflix-shard-00-00-fl3im.mongodb.net:27017, mflix-shard-00-01-fl3im.mongodb.net:27017, mflix-shard-00-02-fl3im.mongodb.net:27017], passives=[], arbiters=[], primary='mflix-shard-00-02-fl3im.mongodb.net:27017', tagSet=TagSet{[Tag{name='provider', value='AWS'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='region', value='AP_SOUTH_1'}]}, electionId=null, setVersion=1, lastWriteDate=Sun Feb 02 01:51:45 IST 2020, lastUpdateTimeNanos=31980563120556}
+
+
+# Created at 2020-02-02T01:51:50.056
+Unexpected IOException with stream: 2020-02-02 01:51:50.054  INFO 76492 --- [ngodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=mflix-shard-00-00-fl3im.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 3]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=45866524, setName='mflix-shard-0', canonicalAddress=mflix-shard-00-00-fl3im.mongodb.net:27017, hosts=[mflix-shard-00-00-fl3im.mongodb.net:27017, mflix-shard-00-01-fl3im.mongodb.net:27017, mflix-shard-00-02-fl3im.mongodb.net:27017], passives=[], arbiters=[], primary='mflix-shard-00-02-fl3im.mongodb.net:27017', tagSet=TagSet{[Tag{name='provider', value='AWS'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='region', value='AP_SOUTH_1'}]}, electionId=null, setVersion=1, lastWriteDate=Sun Feb 02 01:51:45 IST 2020, lastUpdateTimeNanos=31980966770285}
+
+
+# Created at 2020-02-02T01:51:51.613
+Unexpected IOException with stream: 2020-02-02 01:51:51.610  INFO 76492 --- [ngodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=mflix-shard-00-00-fl3im.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 3]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=47673019, setName='mflix-shard-0', canonicalAddress=mflix-shard-00-00-fl3im.mongodb.net:27017, hosts=[mflix-shard-00-00-fl3im.mongodb.net:27017, mflix-shard-00-01-fl3im.mongodb.net:27017, mflix-shard-00-02-fl3im.mongodb.net:27017], passives=[], arbiters=[], primary='mflix-shard-00-02-fl3im.mongodb.net:27017', tagSet=TagSet{[Tag{name='region', value='AP_SOUTH_1'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}]}, electionId=null, setVersion=1, lastWriteDate=Sun Feb 02 01:51:45 IST 2020, lastUpdateTimeNanos=31982522221538}
+
+
+# Created at 2020-02-02T01:51:51.644
+Unexpected IOException with stream: 2020-02-02 01:51:51.642  INFO 76492 --- [ngodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=mflix-shard-00-01-fl3im.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 3]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=47588995, setName='mflix-shard-0', canonicalAddress=mflix-shard-00-01-fl3im.mongodb.net:27017, hosts=[mflix-shard-00-00-fl3im.mongodb.net:27017, mflix-shard-00-01-fl3im.mongodb.net:27017, mflix-shard-00-02-fl3im.mongodb.net:27017], passives=[], arbiters=[], primary='mflix-shard-00-02-fl3im.mongodb.net:27017', tagSet=TagSet{[Tag{name='region', value='AP_SOUTH_1'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}]}, electionId=null, setVersion=1, lastWriteDate=Sun Feb 02 01:51:45 IST 2020, lastUpdateTimeNanos=31982555226062}
+
+
+# Created at 2020-02-02T01:51:54.580
+Unexpected IOException with stream: 2020-02-02 01:51:54.576  INFO 76492 --- [ngodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=mflix-shard-00-00-fl3im.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 3]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=45861193, setName='mflix-shard-0', canonicalAddress=mflix-shard-00-00-fl3im.mongodb.net:27017, hosts=[mflix-shard-00-00-fl3im.mongodb.net:27017, mflix-shard-00-01-fl3im.mongodb.net:27017, mflix-shard-00-02-fl3im.mongodb.net:27017], passives=[], arbiters=[], primary='mflix-shard-00-02-fl3im.mongodb.net:27017', tagSet=TagSet{[Tag{name='region', value='AP_SOUTH_1'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}]}, electionId=null, setVersion=1, lastWriteDate=Sun Feb 02 01:51:45 IST 2020, lastUpdateTimeNanos=31985488881023}
+
+
+# Created at 2020-02-02T01:51:54.584
+Unexpected IOException with stream: 2020-02-02 01:51:54.576  INFO 76492 --- [ngodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=mflix-shard-00-01-fl3im.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 3]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=46767413, setName='mflix-shard-0', canonicalAddress=mflix-shard-00-01-fl3im.mongodb.net:27017, hosts=[mflix-shard-00-00-fl3im.mongodb.net:27017, mflix-shard-00-01-fl3im.mongodb.net:27017, mflix-shard-00-02-fl3im.mongodb.net:27017], passives=[], arbiters=[], primary='mflix-shard-00-02-fl3im.mongodb.net:27017', tagSet=TagSet{[Tag{name='region', value='AP_SOUTH_1'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}]}, electionId=null, setVersion=1, lastWriteDate=Sun Feb 02 01:51:45 IST 2020, lastUpdateTimeNanos=31985488881536}
+
+
+# Created at 2020-02-02T01:51:55.343
+Unexpected IOException with stream: 2020-02-02 01:51:55.341  INFO 76492 --- [ngodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=mflix-shard-00-01-fl3im.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 3]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=49522970, setName='mflix-shard-0', canonicalAddress=mflix-shard-00-01-fl3im.mongodb.net:27017, hosts=[mflix-shard-00-00-fl3im.mongodb.net:27017, mflix-shard-00-01-fl3im.mongodb.net:27017, mflix-shard-00-02-fl3im.mongodb.net:27017], passives=[], arbiters=[], primary='mflix-shard-00-02-fl3im.mongodb.net:27017', tagSet=TagSet{[Tag{name='region', value='AP_SOUTH_1'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}]}, electionId=null, setVersion=1, lastWriteDate=Sun Feb 02 01:51:45 IST 2020, lastUpdateTimeNanos=31986253870815}
+
+
+# Created at 2020-02-02T01:51:55.370
+Unexpected IOException with stream: 2020-02-02 01:51:55.368  INFO 76492 --- [ngodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=mflix-shard-00-00-fl3im.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 3]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=47565538, setName='mflix-shard-0', canonicalAddress=mflix-shard-00-00-fl3im.mongodb.net:27017, hosts=[mflix-shard-00-00-fl3im.mongodb.net:27017, mflix-shard-00-01-fl3im.mongodb.net:27017, mflix-shard-00-02-fl3im.mongodb.net:27017], passives=[], arbiters=[], primary='mflix-shard-00-02-fl3im.mongodb.net:27017', tagSet=TagSet{[Tag{name='region', value='AP_SOUTH_1'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}]}, electionId=null, setVersion=1, lastWriteDate=Sun Feb 02 01:51:45 IST 2020, lastUpdateTimeNanos=31986280790064}
+
+
+# Created at 2020-02-02T01:51:57.532
+Unexpected IOException with stream: 2020-02-02 01:51:57.529  INFO 76492 --- [ngodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=mflix-shard-00-01-fl3im.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 3]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=178073715, setName='mflix-shard-0', canonicalAddress=mflix-shard-00-01-fl3im.mongodb.net:27017, hosts=[mflix-shard-00-00-fl3im.mongodb.net:27017, mflix-shard-00-01-fl3im.mongodb.net:27017, mflix-shard-00-02-fl3im.mongodb.net:27017], passives=[], arbiters=[], primary='mflix-shard-00-02-fl3im.mongodb.net:27017', tagSet=TagSet{[Tag{name='region', value='AP_SOUTH_1'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}]}, electionId=null, setVersion=1, lastWriteDate=Sun Feb 02 01:51:55 IST 2020, lastUpdateTimeNanos=31988442205020}
+
+
+# Created at 2020-02-02T01:51:57.535
+Unexpected IOException with stream: 2020-02-02 01:51:57.529  INFO 76492 --- [ngodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=mflix-shard-00-00-fl3im.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 3]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=63793493, setName='mflix-shard-0', canonicalAddress=mflix-shard-00-00-fl3im.mongodb.net:27017, hosts=[mflix-shard-00-00-fl3im.mongodb.net:27017, mflix-shard-00-01-fl3im.mongodb.net:27017, mflix-shard-00-02-fl3im.mongodb.net:27017], passives=[], arbiters=[], primary='mflix-shard-00-02-fl3im.mongodb.net:27017', tagSet=TagSet{[Tag{name='region', value='AP_SOUTH_1'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}]}, electionId=null, setVersion=1, lastWriteDate=Sun Feb 02 01:51:55 IST 2020, lastUpdateTimeNanos=31988442163983}
+
+
+# Created at 2020-02-02T01:51:57.538
+Unexpected IOException with stream: 2020-02-02 01:51:57.530  INFO 76492 --- [ngodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=mflix-shard-00-00-fl3im.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 3]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=97913316, setName='mflix-shard-0', canonicalAddress=mflix-shard-00-00-fl3im.mongodb.net:27017, hosts=[mflix-shard-00-00-fl3im.mongodb.net:27017, mflix-shard-00-01-fl3im.mongodb.net:27017, mflix-shard-00-02-fl3im.mongodb.net:27017], passives=[], arbiters=[], primary='mflix-shard-00-02-fl3im.mongodb.net:27017', tagSet=TagSet{[Tag{name='region', value='AP_SOUTH_1'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}]}, electionId=null, setVersion=1, lastWriteDate=Sun Feb 02 01:51:55 IST 2020, lastUpdateTimeNanos=31988443150923}
+
+
+# Created at 2020-02-02T01:51:57.541
+Unexpected IOException with stream: 2020-02-02 01:51:57.529  INFO 76492 --- [ngodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=mflix-shard-00-01-fl3im.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 3]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=64611937, setName='mflix-shard-0', canonicalAddress=mflix-shard-00-01-fl3im.mongodb.net:27017, hosts=[mflix-shard-00-00-fl3im.mongodb.net:27017, mflix-shard-00-01-fl3im.mongodb.net:27017, mflix-shard-00-02-fl3im.mongodb.net:27017], passives=[], arbiters=[], primary='mflix-shard-00-02-fl3im.mongodb.net:27017', tagSet=TagSet{[Tag{name='region', value='AP_SOUTH_1'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}]}, electionId=null, setVersion=1, lastWriteDate=Sun Feb 02 01:51:55 IST 2020, lastUpdateTimeNanos=31988442641039}
+
+
+# Created at 2020-02-02T01:51:58.422
+Unexpected IOException with stream: 2020-02-02 01:51:58.420  INFO 76492 --- [ngodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=mflix-shard-00-01-fl3im.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 3]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=47939326, setName='mflix-shard-0', canonicalAddress=mflix-shard-00-01-fl3im.mongodb.net:27017, hosts=[mflix-shard-00-00-fl3im.mongodb.net:27017, mflix-shard-00-01-fl3im.mongodb.net:27017, mflix-shard-00-02-fl3im.mongodb.net:27017], passives=[], arbiters=[], primary='mflix-shard-00-02-fl3im.mongodb.net:27017', tagSet=TagSet{[Tag{name='region', value='AP_SOUTH_1'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}]}, electionId=null, setVersion=1, lastWriteDate=Sun Feb 02 01:51:55 IST 2020, lastUpdateTimeNanos=31989332625957}
+
+
+# Created at 2020-02-02T01:51:58.424
+Unexpected IOException with stream: 2020-02-02 01:51:58.420  INFO 76492 --- [ngodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=mflix-shard-00-00-fl3im.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 3]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=48361084, setName='mflix-shard-0', canonicalAddress=mflix-shard-00-00-fl3im.mongodb.net:27017, hosts=[mflix-shard-00-00-fl3im.mongodb.net:27017, mflix-shard-00-01-fl3im.mongodb.net:27017, mflix-shard-00-02-fl3im.mongodb.net:27017], passives=[], arbiters=[], primary='mflix-shard-00-02-fl3im.mongodb.net:27017', tagSet=TagSet{[Tag{name='region', value='AP_SOUTH_1'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}]}, electionId=null, setVersion=1, lastWriteDate=Sun Feb 02 01:51:55 IST 2020, lastUpdateTimeNanos=31989332713674}
+
+
+# Created at 2020-02-02T01:51:59.706
+Unexpected IOException with stream: 2020-02-02 01:51:59.705  INFO 76492 --- [ngodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=mflix-shard-00-00-fl3im.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 3]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=46514770, setName='mflix-shard-0', canonicalAddress=mflix-shard-00-00-fl3im.mongodb.net:27017, hosts=[mflix-shard-00-00-fl3im.mongodb.net:27017, mflix-shard-00-01-fl3im.mongodb.net:27017, mflix-shard-00-02-fl3im.mongodb.net:27017], passives=[], arbiters=[], primary='mflix-shard-00-02-fl3im.mongodb.net:27017', tagSet=TagSet{[Tag{name='region', value='AP_SOUTH_1'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}]}, electionId=null, setVersion=1, lastWriteDate=Sun Feb 02 01:51:55 IST 2020, lastUpdateTimeNanos=31990617322232}
+
+
+# Created at 2020-02-02T01:52:00.093
+Unexpected IOException with stream: 2020-02-02 01:52:00.090  INFO 76492 --- [ngodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=mflix-shard-00-01-fl3im.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 3]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=44256925, setName='mflix-shard-0', canonicalAddress=mflix-shard-00-01-fl3im.mongodb.net:27017, hosts=[mflix-shard-00-00-fl3im.mongodb.net:27017, mflix-shard-00-01-fl3im.mongodb.net:27017, mflix-shard-00-02-fl3im.mongodb.net:27017], passives=[], arbiters=[], primary='mflix-shard-00-02-fl3im.mongodb.net:27017', tagSet=TagSet{[Tag{name='region', value='AP_SOUTH_1'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}]}, electionId=null, setVersion=1, lastWriteDate=Sun Feb 02 01:51:55 IST 2020, lastUpdateTimeNanos=31991002509412}
+
+
+# Created at 2020-02-02T01:52:00.109
+Unexpected IOException with stream: 2020-02-02 01:52:00.106  INFO 76492 --- [ngodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=mflix-shard-00-00-fl3im.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 3]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=46040217, setName='mflix-shard-0', canonicalAddress=mflix-shard-00-00-fl3im.mongodb.net:27017, hosts=[mflix-shard-00-00-fl3im.mongodb.net:27017, mflix-shard-00-01-fl3im.mongodb.net:27017, mflix-shard-00-02-fl3im.mongodb.net:27017], passives=[], arbiters=[], primary='mflix-shard-00-02-fl3im.mongodb.net:27017', tagSet=TagSet{[Tag{name='region', value='AP_SOUTH_1'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}]}, electionId=null, setVersion=1, lastWriteDate=Sun Feb 02 01:51:55 IST 2020, lastUpdateTimeNanos=31991018454341}
+
+
+# Created at 2020-02-02T01:52:00.325
+Unexpected IOException with stream: 2020-02-02 01:52:00.323  INFO 76492 --- [ngodb.net:27017] org.mongodb.driver.cluster               : Monitor thread successfully connected to server with description ServerDescription{address=mflix-shard-00-01-fl3im.mongodb.net:27017, type=REPLICA_SET_SECONDARY, state=CONNECTED, ok=true, version=ServerVersion{versionList=[4, 2, 3]}, minWireVersion=0, maxWireVersion=8, maxDocumentSize=16777216, logicalSessionTimeoutMinutes=30, roundTripTimeNanos=48231745, setName='mflix-shard-0', canonicalAddress=mflix-shard-00-01-fl3im.mongodb.net:27017, hosts=[mflix-shard-00-00-fl3im.mongodb.net:27017, mflix-shard-00-01-fl3im.mongodb.net:27017, mflix-shard-00-02-fl3im.mongodb.net:27017], passives=[], arbiters=[], primary='mflix-shard-00-02-fl3im.mongodb.net:27017', tagSet=TagSet{[Tag{name='region', value='AP_SOUTH_1'}, Tag{name='nodeType', value='ELECTABLE'}, Tag{name='provider', value='AWS'}]}, electionId=null, setVersion=1, lastWriteDate=Sun Feb 02 01:51:55 IST 2020, lastUpdateTimeNanos=31991236186944}
+
+
